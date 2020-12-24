@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_ulke">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>370</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SECİM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ulke_Secimi_buton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ülke seçimi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_egitim">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>370</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SECİM</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Eitim_Secimi_Buton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>290</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Eğitim seiçimi</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Ulke">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>271</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ulke</string>
+    </property>
+    <widget class="QRadioButton" name="Ingiltere_Buton">
+     <property name="geometry">
+      <rect>
+       <x>41</x>
+       <y>144</y>
+       <width>74</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ingiltere</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Turkiye_buton">
+     <property name="geometry">
+      <rect>
+       <x>41</x>
+       <y>48</y>
+       <width>69</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Türkiye</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Azerbayca_Buton">
+     <property name="geometry">
+      <rect>
+       <x>41</x>
+       <y>112</y>
+       <width>93</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Azerbeycan</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Usa_Buton">
+     <property name="geometry">
+      <rect>
+       <x>41</x>
+       <y>80</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>USA</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Egitim">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>60</y>
+      <width>261</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Egitim</string>
+    </property>
+    <widget class="QRadioButton" name="Lise_Buton">
+     <property name="geometry">
+      <rect>
+       <x>51</x>
+       <y>78</y>
+       <width>50</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Lİse</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Universte_Buton">
+     <property name="geometry">
+      <rect>
+       <x>51</x>
+       <y>142</y>
+       <width>80</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Universte</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Ilk_Okul_Buton">
+     <property name="geometry">
+      <rect>
+       <x>51</x>
+       <y>46</y>
+       <width>67</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ilk okul</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Orta_Okul_Buton">
+     <property name="geometry">
+      <rect>
+       <x>51</x>
+       <y>110</y>
+       <width>79</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Orta okul</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>785</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
